@@ -10,7 +10,7 @@ object CatilloBuild extends Build with UniversalKeys {
    */
   lazy val root =
     project.in(file("."))
-    .settings(commonSettinga:_*)
+    .settings(commonSettings:_*)
     .enablePlugins(PlayScala)
 
   lazy val commonSettings = Seq(
