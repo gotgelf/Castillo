@@ -27,7 +27,7 @@ object CastilloBuild extends Build with UniversalKeys {
    * The settings for the server module.
    */
   lazy val serverSettings = commonSettings ++ Seq(
-    name := "$appname-server",
+    name := s"$appname-server",
     libraryDependencies ++= Dependencies.serverDeps
   )
 
